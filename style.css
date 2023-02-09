@@ -270,38 +270,57 @@ background-color: #212529;
 /* -------------------------------------------------------------- */
 
 
-.top-selling-cards-1{
+
+.top-selling-cards-01{
     display: flex;
     width: 100%;
-    height: 70vh;
+    height: 55vh;
     justify-content: center;
     gap: 20px;
 }
-.top-selling-products{
-    text-align: center;
-}
 
 .top-selling-card img{
-    width: 280px;
+    width: 250px;
 }
 
-
-.top-selling-card.card-btn i{
-    color: black;
+.top-selling-card .img{
+    position: relative;
 }
 
-.top-selling-card .card-btn{
-    position: absolute;
-    bottom: 20px;
-    right: 10px;
-}
 
 .top-selling-card .top-selling-product-info{
     display: flex;
     justify-content: space-between;
 }
 
-.top-selling-product-info .product-rate h4{
+.top-selling-product-rate h4{
     font-size: 27px;
 }
 
+
+.top-selling-card-btn button{
+    width: 30px;
+    height: 30px;
+    border-radius:50% ;
+    outline: none;
+    border: none;
+    
+}
+
+.top-selling-card-btn i{
+    color: rgb(248, 0, 0);
+}
+
+.top-selling-card-btn{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+.top-selling-cards-02{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    gap: 20px;
+}
