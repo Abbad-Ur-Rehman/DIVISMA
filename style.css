@@ -320,7 +320,151 @@ background-color: #212529;
 .top-selling-cards-02{
     display: flex;
     width: 100%;
-    height: 70vh;
+    height: 55vh;
     justify-content: center;
     gap: 20px;
+}
+.top-selling-products h1{
+    text-align: center;
+    font-size: 2.3rem;
+    margin-bottom: 40px;
+}
+
+/* top-selling-product end */
+/* ********************************************************************************************************* */
+
+.load-more button{
+    display: block;
+    margin: 0px auto;
+}
+.load-more button{
+    width: 220px;
+    height: 53px;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size:16px;
+}
+.load-more{
+    height: 10vh;
+}
+/* **************************************************************************************************************** */
+
+.add{
+    position: relative;
+}
+
+.add button{
+    position: absolute;
+   bottom: 30px;
+    left: 50px; 
+}
+
+.add button{
+    width: 170px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    background-color: #f51167;
+
+}
+.add button a{
+    text-decoration: none;
+    color: white;
+}
+.text{
+    position: absolute;
+    top: 55px;
+    left: 50px; 
+}
+.text h4{
+    font-size: 1.2rem;
+}
+
+.text h1{
+    font-size: 2.9rem;
+    color: #f51167;
+
+}
+#add{
+    height:40vh;
+}
+
+/* FOOTER*************************************************************************** */
+
+.footer-bg{
+    background-color: #212529;
+    height: 90vh;
+    padding: 25px;
+    color:white;
+}
+
+.footer-contant{
+    display: flex;
+    gap: 20px;
+    /* padding: 80px; */
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.footer-logo h1{
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+.footer-col h3{
+    font-size: 1.5rem;
+}
+
+#f1 p{
+    font-weight: 100;
+    margin-block:20px;
+    width: 320px;
+    line-height: 1.7;
+}
+
+#f2 .ul-row{
+    display: flex;
+    gap: 40px;
+    padding: 20px 0px;
+}
+
+#f3 .img{
+    display: flex;
+    flex-direction: column;
+}
+#f3 img{
+    width: 100%;
+    margin-top: 10px;
+}
+.txt{
+    padding:6px;
+    line-height: 1.3;
+}
+.text-img {
+    border: 2px solid red;
+    margin-block:5px ;
+    padding: 2px 0px;
+    /* font-size: 100; */
+}
+.text-img a{
+    text-decoration: none;
+    color: #f51167;
+    font-size: 14px;
+}
+.text-img h5{
+    font-size: 13px;
+    /* width: 150px; */
+    font-weight: 400;
+}
+
+.text-img p{
+    font-size: 12px;
+    font-weight: 100;
+}
+#f3 .footer-col00{
+    display: flex;
+    
 }
